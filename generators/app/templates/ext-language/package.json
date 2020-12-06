@@ -2,14 +2,14 @@
     "name": <%- JSON.stringify(name) %>,
     "displayName": <%- JSON.stringify(displayName) %>,
     "description": <%- JSON.stringify(description) %>,
+	"publisher": <%- JSON.stringify(publisherName) %>,
     "version": "0.0.1",
-    "publisher": <%- JSON.stringify(publisher) %>,
     "engines": {
         "vscode": <%- JSON.stringify(vsCodeEngine) %>,
         "azdata": <%- JSON.stringify(azdataEngine) %>
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [{
